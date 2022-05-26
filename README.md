@@ -7,3 +7,4 @@
 [![asciicast of brain-calc](https://asciinema.org/a/RIZZJqK0PCHSrcDWtVYWdMSq3.svg)](https://asciinema.org/a/RIZZJqK0PCHSrcDWtVYWdMSq3)
 [![asciicast of brain-gcd](https://asciinema.org/a/0ZkkbXsil893wU7KbMy0dBsb3.svg)](https://asciinema.org/a/0ZkkbXsil893wU7KbMy0dBsb3)
 [![asciicast of brain-progression](https://asciinema.org/a/aRfB2cnbrcEbsI2l76d2t7quA.svg)](https://asciinema.org/a/aRfB2cnbrcEbsI2l76d2t7quA)
+[![asciicast of brain-prime](https://asciinema.org/a/TTKo1UREwkBiKqGZD871Lmjt4.svg)](https://asciinema.org/a/TTKo1UREwkBiKqGZD871Lmjt4)
