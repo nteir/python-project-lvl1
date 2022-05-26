@@ -1,13 +1,12 @@
 name: GitHub Actions
 
-on:
-  push:
-    branches:
-      - '**'
+on: push
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  linter-check:
+    runs-on: ubuntu-latest 
     steps:
-      - name: Run linter
-        run: make lint
+    -  name: linter-check
+       run: 
+         pip install poetry
+         make lint
