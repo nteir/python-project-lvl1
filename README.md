@@ -4,3 +4,4 @@
 [![GitHub Actions](https://github.com/nteir/python-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/nteir/python-project-lvl1/actions/workflows/github-actions.yml)
 
 [![asciicast of brain-even](https://asciinema.org/a/A6l91CJLFbgZNCRqKbhvOhawT.svg)](https://asciinema.org/a/A6l91CJLFbgZNCRqKbhvOhawT)
+[![asciicast of brain-calc](https://asciinema.org/a/RIZZJqK0PCHSrcDWtVYWdMSq3.svg)](https://asciinema.org/a/RIZZJqK0PCHSrcDWtVYWdMSq3)

@@ -20,6 +20,6 @@ def play_even(username):
         if not result:
             break
         question_num += 1
-    if question_num > 4:
+    if question_num > brain_games.common.ROUND_NUM:
         win = True
     brain_games.common.say_bye(win, username)
