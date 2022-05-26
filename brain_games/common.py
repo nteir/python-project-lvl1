@@ -19,7 +19,7 @@ def get_answer():
 
 
 def check_answer(received, expected):
-    if received == expected:
+    if str(received) == str(expected):
         print('Correct!')
         return True
     else:
