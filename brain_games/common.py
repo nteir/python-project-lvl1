@@ -1,6 +1,8 @@
 import prompt
 import random
 
+ROUND_NUM = 3    # max number of rounds
+
 
 def welcome_user():
     print('Welcome to the Brain Games!')
@@ -9,22 +11,25 @@ def welcome_user():
     return name
 
 
-def play_even(username):
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    question_num = 1
-    answer = ''
-    while question_num < 4:
-        num = random.randrange(1, 101)
-        print(f'Question: {num}')
-        correct_answer = 'yes' if num % 2 == 0 else 'no'
-        answer = input('Your answer: ')
-        if answer == correct_answer:
-            print('Correct!')
-            question_num += 1
-        else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
-            break
-    if question_num < 4:
-        print(f"Let's try again, {username}!")
+def ask_question(question):
+    print(f'Question: {question}')
+
+
+def get_answer():
+    return input('Your answer: ')
+
+
+def check_answer(received, expected):
+    if received == expected:
+        print('Correct!')
+        return True
     else:
+        print(f"'{received}' is wrong answer ;(. Correct answer was '{expected}'.")
+        return False
+
+
+def say_bye(win, username):
+    if win:
         print(f'Congratulations, {username}!')
+    else:
+        print(f"Let's try again, {username}!")
