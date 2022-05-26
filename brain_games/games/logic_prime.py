@@ -26,6 +26,8 @@ def play_prime(username):
 
 
 def is_prime(num):
+    if num == 1:
+        return False    # 1 is not a prime
     half = num / 2
     i = 2
     while i <= half:
