@@ -23,7 +23,8 @@ def check_answer(received, expected):
         print('Correct!')
         return True
     else:
-        print(f"'{received}' is wrong answer ;(. Correct answer was '{expected}'.")
+        print(f"'{received}' is wrong answer ;(.", end='')
+        print(f"Correct answer was '{expected}'.")
         return False
 
 

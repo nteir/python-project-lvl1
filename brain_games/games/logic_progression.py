@@ -40,4 +40,5 @@ def build_progression_string(length, step):
             prog_str += str(prog_head) + ' '
         prog_head += step
     prog_str = prog_str.strip()
-    return prog_str, hidden_num    # returns question string and the missing number
+    # returns question string and the missing number
+    return prog_str, hidden_num
