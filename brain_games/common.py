@@ -1,5 +1,4 @@
 import prompt
-import random
 
 ROUND_NUM = 3    # max number of rounds
 
