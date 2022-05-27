@@ -9,6 +9,6 @@ def form_qa():
     num1 = random.randrange(RAND_LOWER, RAND_UPPER + 1)
     num2 = random.randrange(RAND_LOWER, RAND_UPPER + 1)
     operand = random.choice(['+', '-', '*'])
-    question = str(num1) + ' ' + operand + ' ' + str(num2)
+    question = f"{num1} {operand} {num2}"
     correct_answer = str(eval(question))
     return question, correct_answer

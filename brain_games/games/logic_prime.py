@@ -1,4 +1,5 @@
 import random
+import math
 
 # Random numbers range:
 RAND_LOWER = 1
@@ -15,9 +16,9 @@ def form_qa():
 def is_prime(num):
     if num == 1:
         return False    # 1 is not a prime
-    half = num / 2
+    lower = math.sqrt(num)
     i = 2
-    while i <= half:
+    while i <= lower:
         if num % i == 0:
             return False
         i += 1

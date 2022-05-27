@@ -57,16 +57,14 @@ def say_bye(win, username):
 def run_game(username, game):
     print(TASK_DICT[game])
     question_num = 1
-    answer = ''
-    win = False   # did the user win all 3 rounds?
+    win = True   # optimistic, are we?
     while question_num < ROUND_NUM + 1:
         question, correct_answer = QA_FUNC_DICT[game]()
         ask_question(question)
         answer = get_answer()
         result = check_answer(answer, correct_answer)
         if not result:
+            win = False
             break
         question_num += 1
-    if question_num > ROUND_NUM:
-        win = True
     say_bye(win, username)
