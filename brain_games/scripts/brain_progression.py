@@ -5,7 +5,7 @@ import brain_games.games.logic_progression
 
 def main():
     username = brain_games.common.welcome_user()
-    brain_games.games.logic_progression.play_progression(username)
+    brain_games.common.run_game(username, 'progression')
 
 
 if __name__ == '__main__':

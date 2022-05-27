@@ -5,7 +5,7 @@ import brain_games.games.logic_gcd
 
 def main():
     username = brain_games.common.welcome_user()
-    brain_games.games.logic_gcd.play_gcd(username)
+    brain_games.common.run_game(username, 'gcd')
 
 
 if __name__ == '__main__':
