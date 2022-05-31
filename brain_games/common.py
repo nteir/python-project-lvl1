@@ -54,7 +54,8 @@ def say_bye(win, username):
         print(f"Let's try again, {username}!")
 
 
-def run_game(username, game):
+def run_game(game):
+    username = welcome_user()
     print(TASK_DICT[game])
     question_num = 1
     win = True   # optimistic, are we?

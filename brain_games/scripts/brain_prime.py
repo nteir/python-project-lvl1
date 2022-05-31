@@ -1,11 +1,9 @@
 #!/usr/bin/env python
 import brain_games.common
-import brain_games.games.logic_prime
 
 
 def main():
-    username = brain_games.common.welcome_user()
-    brain_games.common.run_game(username, 'prime')
+    brain_games.common.run_game('prime')
 
 
 if __name__ == '__main__':
