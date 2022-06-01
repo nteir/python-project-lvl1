@@ -4,6 +4,7 @@ import math
 # Random numbers range:
 RAND_LOWER = 1
 RAND_UPPER = 100
+TASK = 'Find the greatest common divisor of given numbers.'
 
 
 def form_qa():

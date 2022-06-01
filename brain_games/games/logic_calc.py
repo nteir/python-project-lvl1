@@ -3,6 +3,7 @@ import random
 # Random numbers range:
 RAND_LOWER = 1
 RAND_UPPER = 100
+TASK = 'What is the result of the expression?'
 
 
 def form_qa():

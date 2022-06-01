@@ -3,6 +3,7 @@ import random
 # Random numbers range:
 RAND_LOWER = 1
 RAND_UPPER = 100
+TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def form_qa():

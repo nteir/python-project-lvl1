@@ -4,6 +4,7 @@ import math
 # Random numbers range:
 RAND_LOWER = 1
 RAND_UPPER = 15
+TASK = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def form_qa():

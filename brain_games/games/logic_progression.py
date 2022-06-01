@@ -3,6 +3,7 @@ import random
 PROGRESSION_LEN = 10
 STEP_RANGE = (2, 7)
 START_RANGE = (1, 15)    # first number in progression
+TASK = 'What number is missing in the progression?'
 
 
 def form_qa():
