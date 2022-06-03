@@ -13,8 +13,17 @@ Includes 5 games:
 * guess the missing number in a random progression
 * is the number a prime
 
-[![asciicast of brain-even](https://asciinema.org/a/A6l91CJLFbgZNCRqKbhvOhawT.svg)](https://asciinema.org/a/A6l91CJLFbgZNCRqKbhvOhawT)
-[![asciicast of brain-calc](https://asciinema.org/a/RIZZJqK0PCHSrcDWtVYWdMSq3.svg)](https://asciinema.org/a/RIZZJqK0PCHSrcDWtVYWdMSq3)
-[![asciicast of brain-gcd](https://asciinema.org/a/0ZkkbXsil893wU7KbMy0dBsb3.svg)](https://asciinema.org/a/0ZkkbXsil893wU7KbMy0dBsb3)
-[![asciicast of brain-progression](https://asciinema.org/a/aRfB2cnbrcEbsI2l76d2t7quA.svg)](https://asciinema.org/a/aRfB2cnbrcEbsI2l76d2t7quA)
-[![asciicast of brain-prime](https://asciinema.org/a/TTKo1UREwkBiKqGZD871Lmjt4.svg)](https://asciinema.org/a/TTKo1UREwkBiKqGZD871Lmjt4)
+Game of Even
+[![asciicast](https://asciinema.org/a/LFMlLD30eRhaRCS5kq00mjwEk.svg)](https://asciinema.org/a/LFMlLD30eRhaRCS5kq00mjwEk)
+
+Game of Calculations
+[![asciicast](https://asciinema.org/a/WrM10e0Thy1iRHj3lMzhzdPuM.svg)](https://asciinema.org/a/WrM10e0Thy1iRHj3lMzhzdPuM)
+
+Game of GCD
+[![asciicast](https://asciinema.org/a/cFajrBPeR5fR07ZpYpNDgpwua.svg)](https://asciinema.org/a/cFajrBPeR5fR07ZpYpNDgpwua)
+
+Game of Progression
+[![asciicast](https://asciinema.org/a/DJK1O2AiM4q6vXy07cTrc6ib7.svg)](https://asciinema.org/a/DJK1O2AiM4q6vXy07cTrc6ib7)
+
+Game of Prime
+[![asciicast](https://asciinema.org/a/P0R41agxTqfBqRVn9KMjmsryS.svg)](https://asciinema.org/a/P0R41agxTqfBqRVn9KMjmsryS)
