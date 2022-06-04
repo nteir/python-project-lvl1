@@ -6,7 +6,7 @@ START_RANGE = (1, 15)    # first number in progression
 TASK = 'What number is missing in the progression?'
 
 
-def form_qa():
+def generate_qa():
     step = random.randrange(STEP_RANGE[0], STEP_RANGE[1])
     hidden_num_index = random.randrange(0, PROGRESSION_LEN)
     hidden_num = 0

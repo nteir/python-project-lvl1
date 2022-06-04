@@ -37,7 +37,6 @@ def say_bye(win, username):
 
 def run_game(task, qa_func):
     username = welcome_user()
-    # print(TASK_DICT[game])
     print(task)
     question_num = 1
     win = True   # optimistic, are we?
