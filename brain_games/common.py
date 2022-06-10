@@ -1,6 +1,6 @@
 import prompt
 
-ROUND_NUM = 3    # max number of rounds
+ROUNDS_COUNT = 3    # max number of rounds
 
 
 def welcome_user():
@@ -28,19 +28,12 @@ def check_answer(received, expected):
         return False
 
 
-def say_bye(win, username):
-    if win:
-        print(f'Congratulations, {username}!')
-    else:
-        print(f"Let's try again, {username}!")
-
-
 def run_game(task, qa_func):
     username = welcome_user()
     print(task)
     question_num = 1
     win = True   # optimistic, are we?
-    while question_num < ROUND_NUM + 1:
+    while question_num < ROUNDS_COUNT + 1:
         question, correct_answer = qa_func()
         ask_question(question)
         answer = get_answer()
@@ -49,4 +42,7 @@ def run_game(task, qa_func):
             win = False
             break
         question_num += 1
-    say_bye(win, username)
+    if win:
+        print(f'Congratulations, {username}!')
+    else:
+        print(f"Let's try again, {username}!")
