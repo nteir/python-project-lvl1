@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 import brain_games.common
-from brain_games.games.logic_gcd import TASK, generate_qa
+from brain_games.games import logic_gcd
 
 
 def main():
-    brain_games.common.run_game(TASK, generate_qa)
+    brain_games.common.run_game(logic_gcd)
 
 
 if __name__ == '__main__':

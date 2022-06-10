@@ -28,13 +28,13 @@ def check_answer(received, expected):
         return False
 
 
-def run_game(task, qa_func):
+def run_game(logic):
     username = welcome_user()
-    print(task)
+    print(logic.TASK)
     question_num = 1
     win = True   # optimistic, are we?
     while question_num < ROUNDS_COUNT + 1:
-        question, correct_answer = qa_func()
+        question, correct_answer = logic.generate_qa()
         ask_question(question)
         answer = get_answer()
         result = check_answer(answer, correct_answer)
